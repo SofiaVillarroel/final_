@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EP04</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="SItioWeb/css/index.css">
+    <link rel="shortcut icon" href="SItioWeb/image/favicon/robot02.png" type="image/x-icon">
+</head>
+</head>
+<body>
+    <div class="top-bar">
+        <a href="https://www.facebook.com/?locale=es_LA"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.google.com.pe/?hl=es"><i class="fab fa-google"></i></a>
+    </div>
+    <header class="header">
+        <div class="logo">DISEÑO WEB PROFESIONAL</div>
+        <nav class="nav">
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#g1">Inicio</a></li>
+                <li><a href="#g2">Aplicaciones</a></li>
+                <li><a href="#g3">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#g5" class="reserva-curso">RESERVA TU CURSO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('nav-menu-visible');
+        });
+    </script>
+
+<section class="info-section" id="g1">
+    <div class="text-column">
+        <h3>Diseño desarrollo web</h3>
+        <h4>Lenguaje de etiqueta HTML y CSS</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt enim tempore molestias cupiditate provident recusandae ab nam in atque, vel quos reprehenderit dignissimos facere architecto! Eos modi inventore fugiat, labore amet eius repellat sit possimus earum et ipsam sequi obcaecati.</p>
+    </div>
+    <div class="image-column">
+        <img src="SItioWeb/image/robot.jpg" alt="Descripción de la imagen">
+    </div>
+    <div class="button-column">
+        <a href="https://blog.hubspot.es/website/que-es-sitio-web"target="_blank"><button class="explore-btn">Explora más información</button></a>
+    </div>
+</section>
+
+
+<section class="custom-table-section" id="g2">
+    <table class="custom-table">
+        <tr>
+            <td colspan="3" class="custom-header">USO DE TABLAS EN HTML</td>
+        </tr>
+        <tr class="uw">
+            <td>24 páginas</td>
+            <td>12 HTML</td>
+            <td>6 CSS</td>
+        </tr>
+    </table>
+    <a href="aplicaciones.html"><button class="custom-view-btn" >Ver aplicaciones</button></a>
+</section>
+
+
+<section class="custom-grid-section" id="g3">
+    <div class="custom-text-column">
+        <h3>
+            CREANDO GRID <span class="custom-highlight">PARA LAS IMÁGENES</span>
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+    </div>
+    <div class="custom-button-column">
+        <a href="tutoriales.html"><button class="custom-tutorial-btn">Ver tutoriales</button></a>
+    </div>
+</section>
+
+
+<section class="gallery">
+    <div class="gallery-item item1">
+        <img src="SItioWeb/image/1.jpg" alt="Imagen 1">
+    </div>
+    <div class="gallery-item item2">
+        <img src="SItioWeb/image/11.jpg" alt="Imagen 2">
+    </div>
+    <div class="gallery-item item3">
+        <img src="SItioWeb/image/3.jpg" alt="Imagen 3">
+    </div>
+    <div class="gallery-item item4">
+        <img src="SItioWeb/image/1.jpg" alt="Imagen 4">
+    </div>
+    <div class="gallery-item item5">
+        <img src="SItioWeb/image/11.jpg" alt="Imagen 5">
+    </div>
+</section>
+
+
+<section class="main-content" id="g4">
+    <div class="column1">
+        <img src="SItioWeb/image/formulario.jpg" alt="Descripción de la imagen">
+    </div>
+    <div class="column2">
+        <div class="form-container">
+            <h2>Ingresa tus datos</h2>
+            <form id="contacto">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+    
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+    
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" placeholder="Ingrese su mensaje" required></textarea>
+                
+                <div class="checkbox-container">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">Acepto los términos y condiciones</label>
+                </div>
+                
+                <div class="buttons">
+                    <button type="submit" class="submit-btn">Enviar</button>
+                    <button type="button" class="google-btn">Iniciar sesión con Google</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer" id="g5">
+        <div class="footer-grid">
+            <div class="social-icons">
+                <!-- Column 1: Social Icons -->
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur labore debitis at amet nam molestiae sunt optio. Sequi, cupiditate quibusdam.</P>
+                <div class="redes-sociales">
+                    <a href="https://www.facebook.com/?locale=es_LA"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.google.com.pe/?hl=es"><i class="fab fa-google"></i></a>>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <!-- Column 2: Menu -->
+                <h4>Mapa del Sitio</h4>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <!-- Column 3: Content -->
+                <h3>Título del Footer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sapien sed nisi finibus tristique.</p>
+            </div>
+            <div class="subscription-form">
+                <!-- Column 4: Subscription Form -->
+                <h4>SUSCRIBETE A NUESTRO CURSO</h4>
+                <form action="#">
+                    <input type="email" placeholder="Ingrese su correo">
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
